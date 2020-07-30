@@ -14,5 +14,7 @@ public class HeadsOrTails {
         }
 
         System.out.println("Heads: " + hc + ", Tails: " + tc);
+        if (hc > tc) System.out.println("you win!");
+        else System.out.println("you lost!");
     }
 }
